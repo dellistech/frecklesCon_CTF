@@ -18,7 +18,7 @@ int main(void)
     {
         printf("error, the key was not found, maybe you can take a look and see where I went wrong.\n");
     }else {
-        printf("something went wrong, that wasn't supposed to resolve, take a look\n");
+        printf("something went wrong, that wasn't supposed to resolve, take a look!\n");
     }
 
     if (NULL == result) 
