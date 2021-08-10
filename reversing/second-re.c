@@ -12,7 +12,7 @@ int main(void)
 
     printf("I'll try to reach out to the internet for the key!\n");
 
-    error = getaddrinfo("base64obfuscatedkeygoeshere",NULL,NULL,&result);
+    error = getaddrinfo("ZnJlY2tsZXN7VGhlIGtleSBpcyBvbiB0aGUgd2lyZX0=",NULL,NULL,&result);
 
     if (error != 0)
     {
